@@ -2,6 +2,9 @@
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
+/*----------------------------
+ header and navigation section 
+ ------------------------------*/
 .header{
    background-color: rgba(255, 144, 14, 0.1);
    
@@ -69,6 +72,9 @@ padding-bottom: 50px;
     justify-content: center;
     padding: 50px 0;
   }
+  /*-----------------------------
+   quick list of feature section
+   ------------------------------ */
   .features-container{
 display: flex;
 gap: 70px;
@@ -105,6 +111,9 @@ color: #FF900E;
     font-size: 16px;
     color: #727272;
   }
+  /*---------------------- 
+  second feature section
+  -------------------------*/
   .feature2{
     display: flex;
     gap: 150px;
@@ -163,6 +172,9 @@ margin-bottom: 130px;
     font-weight: 700;
 font-size: 65px;
   }
+  /*---------------
+  fact section
+  -----------------*/
   .fact-section{
     padding-left: 12%;
     padding-top: 130px;
@@ -213,6 +225,9 @@ transition: transform 1s;
     height: 136.22px;
     margin: auto;
   }
+  /*----------------
+   extra section
+  ----------------- */
 .extra-title{
     text-align: center;
 }
@@ -229,6 +244,9 @@ height: 1059px;
     width: 400px;
     height: 400px;
   }
+  /*----------------- 
+  footer section
+  -------------------*/
   .footer{
     width: 542px;
 height: 129px;
@@ -251,10 +269,10 @@ text-align: center;
 background-color: #FFF4E7;
 border-radius: 8px;
 padding-top: 80px;
-
-
   }
-
+/*----------------------------------- 
+Mobile device Responsive section
+-------------------------------------*/
   @media only screen and (max-width:576px) {
 .header, .header-description, .article, .right-feature, .fact-section-description, .copyright{
     width: 100%;
@@ -271,9 +289,6 @@ nav{
    nav ul{
     flex-direction: column;
     padding-right: 90px;
-   }
-   {
-    flex-direction: column;
    }
    .features-container{
     flex-direction: column-reverse;
@@ -294,9 +309,6 @@ nav{
    .img-container{
     width: 100%;
    }
-   .btn2, .img-container{
-    display: none;
-   }
    .fact-icons{
     flex-direction: column;
     margin-left: 0px;
@@ -316,5 +328,10 @@ nav{
    }
    .footer-img{
     width: 90%;
+    padding-left: 20px;
+    padding-right: 20px;
+   }
+   .btn2, .img-container{
+    display: none;
    }
   }
